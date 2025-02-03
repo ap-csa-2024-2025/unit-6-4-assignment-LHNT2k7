@@ -11,7 +11,7 @@ public class Main
   public static int countLength(String[] arr, int targetLength)
   {
     int count = 0;
-    for (int i = 0; i< arr.length; i++)
+    for (int i = 0; i < arr.length; i++)
     {
       String elem = arr[i];
       if ( targetLength == elem.length())
@@ -24,7 +24,12 @@ public class Main
 
   public static int indexOf(double[] arr, double target)
   {
-    // replace with your code
+    for (int = 0, i < arr.length; i++)
+    double hai = arr[i];
+    if(target == hai)
+    {
+      return i
+    }
     return -1;
   }
 
