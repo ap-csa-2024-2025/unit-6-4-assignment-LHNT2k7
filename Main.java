@@ -25,17 +25,30 @@ public class Main
   public static int indexOf(double[] arr, double target)
   {
     for (int = 0, i < arr.length; i++)
-    double hai = arr[i];
+    {
+      double hai = arr[i];
     if(target == hai)
     {
       return i
+    }
     }
     return -1;
   }
 
   public static boolean hasDuplicates(int[] arr)
   {
-    // replace with your code
+    for (int = 0, i < arr.length; i++)
+      {
+        int hai = arr[i];
+      for (int o = 0, o < arr.length; o++)
+      {
+          if (int hai = arr[o])
+          {
+            return true
+          }
+      }
+      }
+    
     return false;
   }
 
