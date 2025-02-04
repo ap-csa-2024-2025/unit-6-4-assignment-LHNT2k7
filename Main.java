@@ -42,7 +42,8 @@ public class Main
         int hai = arr[i];
       for (int o = 0, o < arr.length; o++)
       {
-          if (int hai = arr[o])
+        int elem = arr[o]
+          if (hai == elem && i != o)
           {
             return true
           }
@@ -54,7 +55,27 @@ public class Main
 
   public static String findMode(String[] arr)
   {
-    // replace with your code
-    return null;
+    String count = 0;
+    String mode  = arr[0];
+    String max-count = 0;
+    for (int = 0, i < arr.length; i++)
+      {
+        String target = arr[i];
+        count = 0;
+        for (int o = 0, o < arr.length; o++)
+      {
+        int elem = arr[o]
+          if (elem.equals(target))
+          {
+            count++
+          }
+      }
+      if (max-count < count)
+      {
+        max-count = count;
+        mode = arr[i];
+      }
+      }
+    return mode;
   }
 }
